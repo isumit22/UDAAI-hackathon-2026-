@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-01-15T09:11:26.831651",
+  "budget_analyzed": 10000000,
+  "implementation_months": 6,
+  "best_roi_scenario": {
+    "name": "School Enrollment Drives",
+    "roi": -96.56630471380471,
+    "total_impact": 3399.3583333333327
+  },
+  "optimal_allocation": {
+    "School Enrollment Drives": {
+      "budget": 6000000.0,
+      "districts": 20,
+      "impact": 0.0,
+      "roi": -100.0
+    },
+    "Mobile Aadhaar Camps": {
+      "budget": 3000000.0,
+      "districts": 16,
+      "impact": 0.0,
+      "roi": -100.0
+    },
+    "Senior Citizen Outreach": {
+      "budget": 1000000.0,
+      "districts": 4,
+      "impact": 0.0,
+      "roi": -100.0
+    }
+  },
+  "total_expected_impact": 0.0
+}

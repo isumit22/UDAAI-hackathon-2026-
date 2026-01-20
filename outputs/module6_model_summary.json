@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-15T08:54:29.724983",
+  "best_model": "ARIMA",
+  "performance": {
+    "rmse": 198160.5270405789,
+    "mae": 166266.0,
+    "mape": 16.397797000800242,
+    "r2": -0.4204547384396662
+  },
+  "all_models": [
+    {
+      "model": "ARIMA",
+      "rmse": 198160.5270405789,
+      "mae": 166266.0,
+      "mape": 16.397797000800242,
+      "r2": -0.4204547384396662
+    },
+    {
+      "model": "Prophet",
+      "rmse": 3728207.8670829753,
+      "mae": 2962039.639974329,
+      "mape": 376.0233943022162,
+      "r2": -501.79776628988395
+    },
+    {
+      "model": "XGBoost",
+      "rmse": 232949.268241449,
+      "mae": 165378.0625,
+      "mape": 15.171005245507482,
+      "r2": -0.9629796784827356
+    }
+  ],
+  "forecast_horizon": 3,
+  "data_quality": {
+    "length": 9,
+    "missing_pct": 0.0,
+    "sufficient_history": 1,
+    "has_variance": 1
+  },
+  "crisis_detection": {
+    "severe_crisis_months": 0,
+    "early_warning_months": 3
+  }
+}

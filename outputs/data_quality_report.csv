@@ -1,0 +1,11 @@
+Metric,Value
+Total District-Months,"8,699"
+States Covered,68
+Districts Covered,1028
+Time Period,2025-03 to 2025-12
+Enrolment Records,"5,435,702"
+Demographic Records,"49,295,187"
+Biometric Records,"69,763,095"
+Missing Values Strategy,"Nulls→0, Negatives→0, Outer join preserves all districts"
+Date Parsing,"DD-MM-YYYY format, dayfirst=True, invalid dates dropped"
+Outlier Handling,"Clipped to 0 minimum, extreme outliers to median"

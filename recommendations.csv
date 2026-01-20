@@ -1,0 +1,6 @@
+Priority,Area,Issue,Action
+HIGH,Data Quality,46 states have update rates >1000%,Investigate data quality processes and implement stricter validation
+MEDIUM,Service Coverage,4 states have update rates <200%,Enhance update service accessibility and awareness campaigns
+HIGH,Enrolment Trends,11 states show declining enrolment trends,Deploy targeted enrolment drives and investigate barriers
+MEDIUM,Geographic Coverage,6 states in bottom 10% coverage,Allocate additional resources and mobile enrolment units
+MEDIUM,Demographic Coverage,Low adult enrolment ratios in several states,Launch adult-focused enrolment campaigns and workplace enrollment drives

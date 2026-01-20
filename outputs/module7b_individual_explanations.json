@@ -1,0 +1,496 @@
+[
+  {
+    "rank": 1,
+    "district": "Thoubal",
+    "state": "Manipur",
+    "risk_probability": 1.0,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.45375208757548535,
+      "adult_child_ratio": 0.0016013506622402929,
+      "enrol_mean": 0.01261386885184038,
+      "enrol_volatility": 0.014964683077887458,
+      "child_enrol_mean": 0.009101507006862448,
+      "momentum": 0.005363598384683428,
+      "coverage_gap": 0.001405440485723375,
+      "update_lag": 0.006403998208443226,
+      "num_pincodes": -0.002853561040574277,
+      "enrol_per_day": 0.06067834090192264,
+      "child_proportion": -0.0006362617488775868,
+      "zero_cis_flag": -8.93344869837165e-06,
+      "negative_momentum_flag": 0.0002200173249002546,
+      "relative_to_state": 0.04153708216332234
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.45375208757548535
+      ],
+      [
+        "enrol_per_day",
+        0.06067834090192264
+      ],
+      [
+        "relative_to_state",
+        0.04153708216332234
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "num_pincodes",
+        -0.002853561040574277
+      ],
+      [
+        "child_proportion",
+        -0.0006362617488775868
+      ],
+      [
+        "zero_cis_flag",
+        -8.93344869837165e-06
+      ]
+    ]
+  },
+  {
+    "rank": 2,
+    "district": "Balod",
+    "state": "Chhattisgarh",
+    "risk_probability": 1.0,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.4513839508965248,
+      "adult_child_ratio": 0.001932924036646,
+      "enrol_mean": 0.007303837589824979,
+      "enrol_volatility": 0.020993015073654534,
+      "child_enrol_mean": 0.005398892791281469,
+      "momentum": 0.005625911147762963,
+      "coverage_gap": 0.0022125121706267235,
+      "update_lag": 0.01058272022080928,
+      "num_pincodes": -0.002248688648505777,
+      "enrol_per_day": 0.05456503622161108,
+      "child_proportion": -0.0019044834763917607,
+      "zero_cis_flag": -8.93344869837165e-06,
+      "negative_momentum_flag": 0.00022083421150455253,
+      "relative_to_state": 0.04808568953544182
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.4513839508965248
+      ],
+      [
+        "enrol_per_day",
+        0.05456503622161108
+      ],
+      [
+        "relative_to_state",
+        0.04808568953544182
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "num_pincodes",
+        -0.002248688648505777
+      ],
+      [
+        "child_proportion",
+        -0.0019044834763917607
+      ],
+      [
+        "zero_cis_flag",
+        -8.93344869837165e-06
+      ]
+    ]
+  },
+  {
+    "rank": 3,
+    "district": "Bagpat",
+    "state": "Uttar Pradesh",
+    "risk_probability": 1.0,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.310418089046907,
+      "adult_child_ratio": 0.0007376432643468433,
+      "enrol_mean": 0.043935023688500226,
+      "enrol_volatility": 0.0004839268736441227,
+      "child_enrol_mean": 0.06275040633090612,
+      "momentum": 0.0024705125407308514,
+      "coverage_gap": 0.00022808516718214378,
+      "update_lag": -0.0021616635804457473,
+      "num_pincodes": 0.030044955155699427,
+      "enrol_per_day": 0.07996738023902708,
+      "child_proportion": 0.03798883792572269,
+      "zero_cis_flag": 0.0,
+      "negative_momentum_flag": -0.00043400935988756827,
+      "relative_to_state": 0.037714030638730946
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.310418089046907
+      ],
+      [
+        "enrol_per_day",
+        0.07996738023902708
+      ],
+      [
+        "child_enrol_mean",
+        0.06275040633090612
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "update_lag",
+        -0.0021616635804457473
+      ],
+      [
+        "negative_momentum_flag",
+        -0.00043400935988756827
+      ]
+    ]
+  },
+  {
+    "rank": 4,
+    "district": "N. T. R",
+    "state": "Andhra Pradesh",
+    "risk_probability": 0.9992798620094868,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.4527898545214339,
+      "adult_child_ratio": 0.00021228117453574668,
+      "enrol_mean": 0.011276228566348436,
+      "enrol_volatility": 0.014947068615056196,
+      "child_enrol_mean": 0.007344102918304998,
+      "momentum": 0.007432250852380093,
+      "coverage_gap": 0.0004924434178610682,
+      "update_lag": 0.00882447792129824,
+      "num_pincodes": -0.00011422025589126861,
+      "enrol_per_day": 0.06803148245096963,
+      "child_proportion": -0.00020575682268827222,
+      "zero_cis_flag": -9.846016764640808e-06,
+      "negative_momentum_flag": 0.00031989074166631325,
+      "relative_to_state": 0.03208282165375749
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.4527898545214339
+      ],
+      [
+        "enrol_per_day",
+        0.06803148245096963
+      ],
+      [
+        "relative_to_state",
+        0.03208282165375749
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "child_proportion",
+        -0.00020575682268827222
+      ],
+      [
+        "num_pincodes",
+        -0.00011422025589126861
+      ],
+      [
+        "zero_cis_flag",
+        -9.846016764640808e-06
+      ]
+    ]
+  },
+  {
+    "rank": 5,
+    "district": "South 24 Pargana",
+    "state": "West Bengal",
+    "risk_probability": 0.9983684580263621,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.3274030435380337,
+      "adult_child_ratio": 0.001233732194177719,
+      "enrol_mean": 0.04180491643688583,
+      "enrol_volatility": -0.0006221087486892429,
+      "child_enrol_mean": 0.061460110926145714,
+      "momentum": 0.0005011546048081072,
+      "coverage_gap": 0.0021936053609169903,
+      "update_lag": -0.002401098376940354,
+      "num_pincodes": 0.0268501538039709,
+      "enrol_per_day": 0.08253735574949587,
+      "child_proportion": 0.03940588643598858,
+      "zero_cis_flag": 0.0,
+      "negative_momentum_flag": -0.00041635422203398773,
+      "relative_to_state": 0.022561277863046597
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.3274030435380337
+      ],
+      [
+        "enrol_per_day",
+        0.08253735574949587
+      ],
+      [
+        "child_enrol_mean",
+        0.061460110926145714
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "update_lag",
+        -0.002401098376940354
+      ],
+      [
+        "enrol_volatility",
+        -0.0006221087486892429
+      ],
+      [
+        "negative_momentum_flag",
+        -0.00041635422203398773
+      ]
+    ]
+  },
+  {
+    "rank": 6,
+    "district": "Madanapalle",
+    "state": "Andhra Pradesh",
+    "risk_probability": 0.9981919241031805,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.32061056210583044,
+      "adult_child_ratio": 0.001204176354840456,
+      "enrol_mean": 0.04229714649519337,
+      "enrol_volatility": -9.095461933156913e-05,
+      "child_enrol_mean": 0.06161209529496773,
+      "momentum": 0.003112019895652338,
+      "coverage_gap": 0.0007487912518445227,
+      "update_lag": -0.00448477698242641,
+      "num_pincodes": 0.030647645017979813,
+      "enrol_per_day": 0.07907875378564767,
+      "child_proportion": 0.03797605198292331,
+      "zero_cis_flag": 0.004482684970134869,
+      "negative_momentum_flag": -0.0004370558658411028,
+      "relative_to_state": 0.025578001870730987
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.32061056210583044
+      ],
+      [
+        "enrol_per_day",
+        0.07907875378564767
+      ],
+      [
+        "child_enrol_mean",
+        0.06161209529496773
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "update_lag",
+        -0.00448477698242641
+      ],
+      [
+        "negative_momentum_flag",
+        -0.0004370558658411028
+      ],
+      [
+        "enrol_volatility",
+        -9.095461933156913e-05
+      ]
+    ]
+  },
+  {
+    "rank": 7,
+    "district": "Tiswadi",
+    "state": "Goa",
+    "risk_probability": 0.9981919241031805,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.31852012463630675,
+      "adult_child_ratio": 0.00047850231299889856,
+      "enrol_mean": 0.04243303000002925,
+      "enrol_volatility": 0.001466268574845344,
+      "child_enrol_mean": 0.06256199035902682,
+      "momentum": 0.0022837430908657554,
+      "coverage_gap": 0.0022727902745464236,
+      "update_lag": -0.0035689811555130293,
+      "num_pincodes": 0.030233457429294504,
+      "enrol_per_day": 0.0777628174929805,
+      "child_proportion": 0.03831779310638922,
+      "zero_cis_flag": 0.004461401920998469,
+      "negative_momentum_flag": -0.00047421439849131274,
+      "relative_to_state": 0.025586418121879433
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.31852012463630675
+      ],
+      [
+        "enrol_per_day",
+        0.0777628174929805
+      ],
+      [
+        "child_enrol_mean",
+        0.06256199035902682
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "update_lag",
+        -0.0035689811555130293
+      ],
+      [
+        "negative_momentum_flag",
+        -0.00047421439849131274
+      ]
+    ]
+  },
+  {
+    "rank": 8,
+    "district": "Near Uday nagar NIT garden",
+    "state": "Manipur",
+    "risk_probability": 0.9981919241031805,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.31970127604046866,
+      "adult_child_ratio": -0.0016302922997419955,
+      "enrol_mean": 0.04337257259548096,
+      "enrol_volatility": 0.0001538289200152576,
+      "child_enrol_mean": 0.06188479429376457,
+      "momentum": 0.002715194561842509,
+      "coverage_gap": 0.0006727379946278233,
+      "update_lag": -0.0023175374887068755,
+      "num_pincodes": 0.03247951905193986,
+      "enrol_per_day": 0.07933940981667092,
+      "child_proportion": 0.037731151102716465,
+      "zero_cis_flag": 0.004482684970134869,
+      "negative_momentum_flag": -0.0004412225327541819,
+      "relative_to_state": 0.024191025109234942
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.31970127604046866
+      ],
+      [
+        "enrol_per_day",
+        0.07933940981667092
+      ],
+      [
+        "child_enrol_mean",
+        0.06188479429376457
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "update_lag",
+        -0.0023175374887068755
+      ],
+      [
+        "adult_child_ratio",
+        -0.0016302922997419955
+      ],
+      [
+        "negative_momentum_flag",
+        -0.0004412225327541819
+      ]
+    ]
+  },
+  {
+    "rank": 9,
+    "district": "Bellary",
+    "state": "Karnataka",
+    "risk_probability": 0.9971376571757428,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.43708434938549545,
+      "adult_child_ratio": 1.884771292679943e-05,
+      "enrol_mean": 0.003848384882003302,
+      "enrol_volatility": 0.019577929386105097,
+      "child_enrol_mean": 0.004833911945852378,
+      "momentum": 0.007274010810397158,
+      "coverage_gap": 0.0017189196980325506,
+      "update_lag": 0.008944735181066789,
+      "num_pincodes": 0.00015777083766806754,
+      "enrol_per_day": 0.05800279401675652,
+      "child_proportion": 0.007498876471727272,
+      "zero_cis_flag": -1.1930579785257577e-05,
+      "negative_momentum_flag": 0.0002516666421433911,
+      "relative_to_state": 0.0520806087465553
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.43708434938549545
+      ],
+      [
+        "enrol_per_day",
+        0.05800279401675652
+      ],
+      [
+        "relative_to_state",
+        0.0520806087465553
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "zero_cis_flag",
+        -1.1930579785257577e-05
+      ]
+    ]
+  },
+  {
+    "rank": 10,
+    "district": "Chikkaballapur",
+    "state": "Karnataka",
+    "risk_probability": 0.9970814400559246,
+    "base_value": 0.3958567746346924,
+    "shap_contributions": {
+      "cis_mean": 0.4539159166868194,
+      "adult_child_ratio": 0.0008330407473113155,
+      "enrol_mean": 0.006031981189444195,
+      "enrol_volatility": 0.016839517138851078,
+      "child_enrol_mean": 0.0059743759833691,
+      "momentum": 0.005408190045909578,
+      "coverage_gap": 0.000795577867065731,
+      "update_lag": 0.008582501449272967,
+      "num_pincodes": -0.0022183905779820635,
+      "enrol_per_day": 0.05985700144301518,
+      "child_proportion": -0.0034854328024812274,
+      "zero_cis_flag": -1.1258057784289121e-05,
+      "negative_momentum_flag": 0.0002582194990827702,
+      "relative_to_state": 0.04844341743220866
+    },
+    "top_3_positive": [
+      [
+        "cis_mean",
+        0.4539159166868194
+      ],
+      [
+        "enrol_per_day",
+        0.05985700144301518
+      ],
+      [
+        "relative_to_state",
+        0.04844341743220866
+      ]
+    ],
+    "top_3_negative": [
+      [
+        "child_proportion",
+        -0.0034854328024812274
+      ],
+      [
+        "num_pincodes",
+        -0.0022183905779820635
+      ],
+      [
+        "zero_cis_flag",
+        -1.1258057784289121e-05
+      ]
+    ]
+  }
+]

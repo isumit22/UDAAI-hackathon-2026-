@@ -1,0 +1,7 @@
+Metric,Pre-Processing,Post-Processing,Strategy
+Total Records,"4,938,837","4,938,837",Loaded with dtype optimization
+Invalid Dates Dropped,0,0 (removed),"dayfirst=True parsing, errors=coerce"
+Null Pincodes,Present,0 (district-median imputed),District-level median imputation
+Outliers Detected (IQR),0,"1,402,289 (flagged, preserved)",IQR method (preserved for Module 4 analysis)
+Invalid Geo Codes,4,4 (removed after recovery attempt),"Pincode-based recovery attempted, pure test data removed"
+Final Clean Records,-,"8,699",District-month aggregation with feature engineering

@@ -1,0 +1,19 @@
+Category,Metric,Value
+Data Volume,Original Records Loaded,"4,938,837"
+Data Volume,Valid Records (Post-Cleaning),"4,938,837"
+Data Volume,Final District-Months,"8,699"
+Data Volume,Data Retention Rate,100.0%
+Geography,States Covered,36
+Geography,Districts Covered,975
+Temporal,Time Period,2025-03 to 2025-12
+Quality Metrics,Invalid Dates Removed,0 (0.00%)
+Quality Metrics,Outliers Flagged (IQR),"1,402,289 values (preserved for anomaly analysis)"
+Quality Metrics,Test Records (Invalid Geo),"4 found, 4 removed"
+Quality Metrics,Invalid Pincodes Flagged,0 (all pincodes in valid 100000-855999 range)
+Processing,Missing Value Strategy,District-level median (robust to outliers)
+Processing,Outlier Strategy,IQR flagging (handles non-normal distributions)
+Processing,Temporal Normalization,Per-day rates (31-day vs 28-day normalized)
+Features,Engineered Features,"11 features: CIS, Update Lag, Volatility, Bio Share, MBU Lag (adaptive), Enrollment Momentum, Service Pressure, Adult-Child Ratio, Bio Quality Score, Coverage Gap, Update Velocity"
+Features,Memory Optimization,3.2 MB (dtype=int32/float32)
+Advanced Techniques,District Behavior Clustering,5 behavior clusters (K-Means on 4 key metrics)
+Advanced Techniques,Multi-Dimensional Anomaly Detection,"435 anomalous district-months flagged (IsolationForest, 5% contamination)"

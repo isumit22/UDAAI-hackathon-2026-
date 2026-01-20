@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-01-16T01:32:09.006512",
+  "version": "1.0.0",
+  "model": "K-Means Clustering",
+  "problem": "PROBLEM 3: Budget Optimization via District Segmentation",
+  "configuration": {
+    "n_clusters": 2,
+    "n_init": 50,
+    "max_iter": 500,
+    "random_state": 42,
+    "features_used": [
+      "cis_mean",
+      "enrol_mean",
+      "enrol_volatility",
+      "coverage_gap",
+      "update_lag",
+      "cost_burden_index"
+    ]
+  },
+  "quality_metrics": {
+    "silhouette_score": 0.5885333751531202,
+    "davies_bouldin_index": 0.8727456507247505,
+    "calinski_harabasz_score": 276.733828451912,
+    "pca_variance_explained": 0.6239043111301161
+  },
+  "cluster_distribution": {
+    "0": 930,
+    "1": 45
+  },
+  "budget_allocation": {
+    "total_budget": 10000000,
+    "by_cluster": [
+      {
+        "cluster": 0,
+        "persona": "\ud83d\udfe1 Moderate Risk",
+        "total_budget": 2000000.0,
+        "budget_pct": 20.0
+      },
+      {
+        "cluster": 1,
+        "persona": "\ud83d\udfe2 High Performance",
+        "total_budget": 500000.0,
+        "budget_pct": 5.0
+      }
+    ]
+  },
+  "personas": {
+    "0": {
+      "name": "\ud83d\udfe1 Moderate Risk",
+      "priority": 3,
+      "description": "Below-average child inclusion, manageable costs",
+      "strategy": "Targeted school drives + awareness campaigns"
+    },
+    "1": {
+      "name": "\ud83d\udfe2 High Performance",
+      "priority": 4,
+      "description": "Good child inclusion, low cost burden - sustainable model",
+      "strategy": "Maintain + share best practices"
+    }
+  },
+  "policy_playbook": [
+    {
+      "cluster_id": 0,
+      "persona": "\ud83d\udfe1 Moderate Risk",
+      "priority": 3,
+      "description": "Below-average child inclusion, manageable costs",
+      "num_districts": 930,
+      "total_budget": 2000000.0,
+      "budget_per_district": 2150.537634408602,
+      "strategy": "Targeted school drives + awareness campaigns",
+      "key_metrics": {
+        "avg_cis": 0.36340027513617024,
+        "avg_cost_burden": 0.9988627935691494,
+        "avg_enrollment": 608.6407242736285,
+        "crisis_districts": 465
+      },
+      "top_5_priority_districts": [
+        {
+          "district": "Adilabad",
+          "state": "Andhra Pradesh",
+          "cis_mean": 0.17733333333333334,
+          "cost_burden_index": 1.0
+        },
+        {
+          "district": "Agar Malwa",
+          "state": "Madhya Pradesh",
+          "cis_mean": 0.371,
+          "cost_burden_index": 1.0
+        },
+        {
+          "district": "Agra",
+          "state": "Uttar Pradesh",
+          "cis_mean": 0.6626666666666667,
+          "cost_burden_index": 1.0
+        },
+        {
+          "district": "Ahmadabad",
+          "state": "Gujarat",
+          "cis_mean": 0.5571111111111111,
+          "cost_burden_index": 1.0
+        },
+        {
+          "district": "Ahmadnagar",
+          "state": "Maharashtra",
+          "cis_mean": 0.38033333333333336,
+          "cost_burden_index": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "persona": "\ud83d\udfe2 High Performance",
+      "priority": 4,
+      "description": "Good child inclusion, low cost burden - sustainable model",
+      "num_districts": 45,
+      "total_budget": 500000.0,
+      "budget_per_district": 11111.111111111111,
+      "strategy": "Maintain + share best practices",
+      "key_metrics": {
+        "avg_cis": 0.6440055555555556,
+        "avg_cost_burden": 0.08857513487384296,
+        "avg_enrollment": 851.5444444444443,
+        "crisis_districts": 16
+      },
+      "top_5_priority_districts": [
+        {
+          "district": "Bandipur",
+          "state": "Jammu and Kashmir",
+          "cis_mean": 0.25,
+          "cost_burden_index": 0.47309401076758506
+        },
+        {
+          "district": "Eastern West Khasi Hills",
+          "state": "Meghalaya",
+          "cis_mean": 0.76725,
+          "cost_burden_index": 0.42418339605465993
+        },
+        {
+          "district": "Coochbehar",
+          "state": "West Bengal",
+          "cis_mean": 0.9860000000000001,
+          "cost_burden_index": 0.10398358343050394
+        },
+        {
+          "district": "Dinajpur Uttar",
+          "state": "West Bengal",
+          "cis_mean": 0.9926666666666666,
+          "cost_burden_index": 0.07319071700681962
+        },
+        {
+          "district": "Siddharth Nagar",
+          "state": "Uttar Pradesh",
+          "cis_mean": 0.9984999999999999,
+          "cost_burden_index": 0.07005700042693558
+        }
+      ]
+    }
+  ]
+}

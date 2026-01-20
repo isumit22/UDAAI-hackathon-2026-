@@ -1,0 +1,4 @@
+dataset,timestamp,rows_loaded,columns,date_range,states,districts,null_pct,issues
+api_data_aadhar_enrolment_1000000_1006029.csv,2026-01-13 19:51:26,6029,"['date', 'state', 'district', 'pincode', 'age_0_5', 'age_5_17', 'age_18_greater']",31-12-2025 to 31-12-2025,37,772,0.0,['Date column not parsed—fixing now']
+api_data_aadhar_demographic_2000000_2071700.csv,2026-01-13 19:51:30,71700,"['date', 'state', 'district', 'pincode', 'demo_age_5_17', 'demo_age_17_']",15-12-2025 to 29-12-2025,57,927,0.0,['Date column not parsed—fixing now']
+api_data_aadhar_biometric_1500000_1861108.csv,2026-01-13 19:51:34,361108,"['date', 'state', 'district', 'pincode', 'bio_age_5_17', 'bio_age_17_']",08-12-2025 to 29-12-2025,53,943,0.0,"['Date column not parsed—fixing now', 'Nulls filled with 0: 262126 values']"

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-17T11:00:51.039429",
+  "version": "1.0.0",
+  "model": {
+    "type": "ARIMA",
+    "order": [
+      2,
+      1,
+      2
+    ],
+    "aic": 239.6744365535103,
+    "bic": 240.07164426190948
+  },
+  "forecast_horizon": 90,
+  "confidence_intervals": {
+    "95_percent": {
+      "avg_width": 8264891.187342634,
+      "min_width": 1705819.4455349916,
+      "max_width": 12205926.486551963
+    },
+    "80_percent": {
+      "avg_width": 5404121.873535512,
+      "min_width": 1115375.3835302251,
+      "max_width": 7981026.345968195
+    }
+  },
+  "uncertainty_metrics": {
+    "avg_std_error": 2108429.3519000965,
+    "avg_coefficient_of_variation_pct": 238.74030297376106,
+    "high_uncertainty_days": 89,
+    "uncertainty_trend": "Increasing"
+  },
+  "forecast_summary": {
+    "mean_daily_forecast": 883867.5993501478,
+    "min_forecast": 794946.5556701062,
+    "max_forecast": 972935.7399838844,
+    "historical_max": 1475867.0,
+    "days_likely_exceeding_historical_max": 90
+  },
+  "reliability_assessment": {
+    "short_term_reliability": "MEDIUM",
+    "long_term_reliability": "LOW",
+    "recommendation": "Use forecast with caution beyond 60 days"
+  },
+  "key_insights": [
+    "95% confidence interval avg width: 8,264,891 enrollments",
+    "Average forecast uncertainty (CV): 238.7%",
+    "High uncertainty days (CV > 50%): 89 of 90",
+    "Forecast range: 794,947 to 972,936 daily enrollments",
+    "Historical max (1,475,867) likely exceeded on 90 days"
+  ]
+}

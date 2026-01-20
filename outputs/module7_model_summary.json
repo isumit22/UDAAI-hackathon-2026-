@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-01-16T01:23:27.260399",
+  "model": "Random Forest Classifier",
+  "problem": "PROBLEM 1: Welfare Exclusion Prediction",
+  "performance": {
+    "train_accuracy": 0.9986320109439124,
+    "test_accuracy": 0.9836065573770492,
+    "cross_val_mean": 0.9890504146864225,
+    "cross_val_std": 0.005486468356288838,
+    "roc_auc": 0.995603354978355,
+    "oob_score": 0.9890560875512996
+  },
+  "data": {
+    "total_districts": 975,
+    "high_risk_districts": 445,
+    "critical_risk_districts": 427,
+    "features_used": [
+      "cis_mean",
+      "adult_child_ratio",
+      "enrol_mean",
+      "enrol_volatility",
+      "child_enrol_mean",
+      "momentum",
+      "coverage_gap",
+      "update_lag",
+      "num_pincodes",
+      "enrol_per_day",
+      "child_proportion",
+      "zero_cis_flag",
+      "negative_momentum_flag",
+      "relative_to_state"
+    ]
+  },
+  "top_10_features": [
+    {
+      "feature": "cis_mean",
+      "importance": 0.49165706553164784
+    },
+    {
+      "feature": "enrol_per_day",
+      "importance": 0.20331844657417597
+    },
+    {
+      "feature": "relative_to_state",
+      "importance": 0.09960190962511582
+    },
+    {
+      "feature": "enrol_volatility",
+      "importance": 0.0462028346181598
+    },
+    {
+      "feature": "enrol_mean",
+      "importance": 0.04246520633503526
+    },
+    {
+      "feature": "child_enrol_mean",
+      "importance": 0.03253604183125576
+    },
+    {
+      "feature": "child_proportion",
+      "importance": 0.02208248428821727
+    },
+    {
+      "feature": "momentum",
+      "importance": 0.021889554245562368
+    },
+    {
+      "feature": "num_pincodes",
+      "importance": 0.01324115822303486
+    },
+    {
+      "feature": "update_lag",
+      "importance": 0.012666861735703654
+    }
+  ],
+  "top_20_high_risk_districts": [
+    {
+      "district": "Idukki",
+      "state": "Kerala",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Uttara Kannada",
+      "state": "Karnataka",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Ananthapuramu",
+      "state": "Andhra Pradesh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Kangpokpi",
+      "state": "Manipur",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Kanker",
+      "state": "Chhattisgarh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Kanniyakumari",
+      "state": "Tamil Nadu",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Kolar",
+      "state": "Karnataka",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Koriya",
+      "state": "Chhattisgarh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Mohali",
+      "state": "Chandigarh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Chickmagalur",
+      "state": "Karnataka",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Chikkamagaluru",
+      "state": "Karnataka",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Nandyal",
+      "state": "Andhra Pradesh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Chamba",
+      "state": "Himachal Pradesh",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Chamoli",
+      "state": "Uttarakhand",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Pauri Garhwal",
+      "state": "Uttarakhand",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Ramgarh",
+      "state": "Jharkhand",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Thoubal",
+      "state": "Manipur",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Tiruppur",
+      "state": "Tamil Nadu",
+      "risk_score": 100.0
+    },
+    {
+      "district": "Rewari",
+      "state": "Haryana",
+      "risk_score": 100.0
+    }
+  ]
+}

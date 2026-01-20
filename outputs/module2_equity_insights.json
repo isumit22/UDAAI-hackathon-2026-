@@ -1,0 +1,64 @@
+[
+  {
+    "analysis_date":"2025-12",
+    "total_districts_analyzed":1077,
+    "national_child_enrollment_rate":0.361,
+    "national_adult_enrollment_rate":0.075,
+    "age_gap":-0.286,
+    "age_gap_significant":true,
+    "child_underserved_districts":2,
+    "critical_vulnerable_districts":71,
+    "high_vulnerable_districts":185,
+    "top_3_vulnerable":[
+      {
+        "district":"Balotra",
+        "state":"Rajasthan",
+        "vulnerability_score":94.8619640971
+      },
+      {
+        "district":"Kotputli-Behror",
+        "state":"Rajasthan",
+        "vulnerability_score":92.0723336853
+      },
+      {
+        "district":"Tirupathur",
+        "state":"Tamil Nadu",
+        "vulnerability_score":90.053875396
+      }
+    ],
+    "gender_risk_districts":920,
+    "avg_adult_child_ratio":3.96,
+    "recommendations":[
+      {
+        "priority":"HIGH",
+        "target":"71 critical vulnerable districts",
+        "action":"Deploy mobile Aadhaar camps with child-focused staff within 60 days",
+        "rationale":"CIS below 0.3 indicates systemic child exclusion"
+      },
+      {
+        "priority":"HIGH",
+        "target":"2 child-underserved districts",
+        "action":"Partner with schools for enrollment drives during admission season",
+        "rationale":"Age gap of -28.6% is statistically significant (p=0.0000)"
+      },
+      {
+        "priority":"MEDIUM",
+        "target":"920 gender risk districts",
+        "action":"Conduct field validation of adult-child ratio patterns with gender-disaggregated surveys",
+        "rationale":"Adult-child ratio proxy requires ground-truth verification"
+      },
+      {
+        "priority":"MEDIUM",
+        "target":"Rural-like districts (high coverage gap)",
+        "action":"Deploy Aadhaar Seva Kendras in block headquarters to reduce travel distance",
+        "rationale":"Geographic isolation correlates with low inclusion scores"
+      },
+      {
+        "priority":"CRITICAL",
+        "target":"88 districts with zero CIS",
+        "action":"URGENT: Investigate data quality issues or launch emergency child enrollment drives",
+        "rationale":"CIS=0 indicates either data failure or complete child exclusion crisis"
+      }
+    ]
+  }
+]

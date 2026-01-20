@@ -1,0 +1,17 @@
+feature,importance
+lag_3,0.28043577
+rolling_std_2,0.19212288
+lag_2,0.12123498
+lag_1,0.0919782
+rolling_std_3,0.090050235
+rolling_mean_2,0.06663234
+month_sin,0.05740646
+diff,0.04290877
+rolling_max_3,0.029713001
+rolling_max_2,0.013286831
+rolling_mean_3,0.01152918
+month_cos,0.001552623
+pct_change,0.001148701
+rolling_min_2,0.0
+rolling_min_3,0.0
+trend,0.0

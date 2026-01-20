@@ -1,0 +1,48 @@
+[
+  {
+    "zero_cis_total":3645,
+    "zero_cis_pct":41.9,
+    "root_causes":{
+      "No Data (Sparse Coverage)":2100,
+      "Child Enrollment Crisis (Real Issue)":1543,
+      "Missing Child Data (Aggregation Error)":2
+    },
+    "total_anomalies":435,
+    "anomaly_classification":{
+      "Data Quality (High Lag + Low Count)":197,
+      "Unclear (Needs Investigation)":149,
+      "Policy Event (High Enrollment Spike)":89
+    },
+    "temporal_spikes":0,
+    "spike_months":[
+
+    ],
+    "poor_quality_districts":18,
+    "recommendations":[
+      {
+        "priority":"CRITICAL",
+        "issue":"2 zero-CIS records due to aggregation errors",
+        "action":"Investigate district-month combinations where child age data (0-17) is missing despite adult data being present",
+        "expected_impact":"Recover up to 40% of \"missing\" child enrollments"
+      },
+      {
+        "priority":"HIGH",
+        "issue":"0 anomalies classified as data quality issues",
+        "action":"Re-run aggregation pipeline with enhanced age group validation",
+        "expected_impact":"Improve overall data quality score by 15-20%"
+      },
+      {
+        "priority":"MEDIUM",
+        "issue":"0 months with enrollment spikes detected",
+        "action":"Cross-reference spike months with known government campaigns (school enrollment drives, PAN-Aadhaar linking deadlines)",
+        "expected_impact":"Validate legitimacy of spikes vs data errors"
+      },
+      {
+        "priority":"LOW",
+        "issue":"0 potential fraud cases flagged",
+        "action":"Manual review by UIDAI field officers for districts with >50x median enrollment",
+        "expected_impact":"Fraud prevention and data integrity assurance"
+      }
+    ]
+  }
+]

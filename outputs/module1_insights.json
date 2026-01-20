@@ -1,0 +1,26 @@
+[
+  {
+    "critical_districts_count":640,
+    "top_3_critical":[
+      {
+        "district":"Upper Siang",
+        "state":"Arunachal Pradesh",
+        "inclusion_score":3.3072727273
+      },
+      {
+        "district":"Thoubal",
+        "state":"Manipur",
+        "inclusion_score":4.7679800906
+      },
+      {
+        "district":"Peren",
+        "state":"Nagaland",
+        "inclusion_score":5.2612181629
+      }
+    ],
+    "national_avg_score":43.1608495767,
+    "improvement_rate":7.9333036465,
+    "states_below_40":41,
+    "total_anomalies":435
+  }
+]

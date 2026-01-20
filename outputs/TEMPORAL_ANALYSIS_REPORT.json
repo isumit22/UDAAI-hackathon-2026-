@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-01-17T10:58:36.395542",
+  "version": "1.0.0",
+  "analysis_period": {
+    "start": "2025-03",
+    "end": "2025-12",
+    "total_months": 9,
+    "data_limitation": "Only 9 months available (seasonal decomposition requires 24+)"
+  },
+  "enrollment_summary": {
+    "total_enrollments": 5435484,
+    "avg_monthly": 603942,
+    "peak_month": "Sep 2025",
+    "peak_enrollments": 1475867,
+    "lowest_month": "Mar 2025",
+    "lowest_enrollments": 16582
+  },
+  "growth_analysis": {
+    "avg_mom_growth_pct": 215.6248467200979,
+    "growth_volatility": 506.66653164271696,
+    "unusual_months": 1,
+    "overall_trend": "Increasing",
+    "total_growth_pct": 4480.050657339284
+  },
+  "demographic_insights": {
+    "avg_child_adult_ratio": 32.49855804172781,
+    "child_enrollment_share_pct": 96.90669680933658,
+    "adult_enrollment_share_pct": 3.0933031906634256
+  },
+  "geographic_insights": {
+    "top_5_states": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Madhya Pradesh",
+      "West Bengal",
+      "Maharashtra"
+    ],
+    "avg_districts_active_monthly": 883,
+    "avg_enrollments_per_district": 664
+  },
+  "key_insights": [
+    "Total enrollments across 9 months: 5,435,484",
+    "Average monthly growth: 215.6% (volatility: 506.7%)",
+    "Child enrollment share: 96.9%",
+    "Peak enrollment month: Sep 2025",
+    "Top state: Uttar Pradesh (highest cumulative enrollments)"
+  ]
+}

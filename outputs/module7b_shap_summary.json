@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-01-17T00:03:13.123215",
+  "version": "1.0.0",
+  "model": "Random Forest + SHAP TreeExplainer",
+  "configuration": {
+    "background_samples": 100,
+    "explained_samples": 244,
+    "features": [
+      "cis_mean",
+      "adult_child_ratio",
+      "enrol_mean",
+      "enrol_volatility",
+      "child_enrol_mean",
+      "momentum",
+      "coverage_gap",
+      "update_lag",
+      "num_pincodes",
+      "enrol_per_day",
+      "child_proportion",
+      "zero_cis_flag",
+      "negative_momentum_flag",
+      "relative_to_state"
+    ],
+    "random_state": 42
+  },
+  "global_insights": {
+    "rf_shap_correlation": 0.968310501273867,
+    "mean_absolute_shap": 0.03494456853487712,
+    "base_value": 0.3958567746346924,
+    "top_5_features_shap": [
+      {
+        "feature": "cis_mean",
+        "shap_importance": 0.32965355243656985
+      },
+      {
+        "feature": "enrol_per_day",
+        "shap_importance": 0.05503890492568026
+      },
+      {
+        "feature": "relative_to_state",
+        "shap_importance": 0.030031555072755296
+      },
+      {
+        "feature": "child_enrol_mean",
+        "shap_importance": 0.014587386157558307
+      },
+      {
+        "feature": "enrol_mean",
+        "shap_importance": 0.012986361177614062
+      }
+    ]
+  },
+  "individual_explanations_generated": 10,
+  "test_accuracy": 0.9836065573770492
+}

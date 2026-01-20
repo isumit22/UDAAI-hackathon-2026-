@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-01-17T01:19:12.145764",
+  "version": "1.0.0",
+  "overall_statistics": {
+    "districts_requiring_action": 948,
+    "total_budget_required": "\u20b9364,750,000",
+    "total_budget_numeric": 364750000,
+    "total_target_enrollments": 5240500,
+    "average_budget_per_district": "\u20b9384,757",
+    "estimated_cis_improvement": "+0.097 national average"
+  },
+  "intervention_breakdown": {
+    "Deploy Mobile Aadhaar Enrollment Camp": 427,
+    "School-Based Enrollment Drive": 355,
+    "Demographic Update Campaign": 946,
+    "Digital Literacy & Awareness Program": 99
+  },
+  "top_10_priority_districts": [
+    {
+      "rank": 1,
+      "district": "Idukki",
+      "state": "Kerala",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 2,
+      "district": "Uttara Kannada",
+      "state": "Karnataka",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 3,
+      "district": "Ananthapuramu",
+      "state": "Andhra Pradesh",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 4,
+      "district": "Kangpokpi",
+      "state": "Manipur",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 5,
+      "district": "Kanker",
+      "state": "Chhattisgarh",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 6,
+      "district": "Kanniyakumari",
+      "state": "Tamil Nadu",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 7,
+      "district": "Kolar",
+      "state": "Karnataka",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 8,
+      "district": "Koriya",
+      "state": "Chhattisgarh",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 9,
+      "district": "Mohali",
+      "state": "Chandigarh",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    },
+    {
+      "rank": 10,
+      "district": "Chickmagalur",
+      "state": "Karnataka",
+      "risk_score": 100.0,
+      "budget": "\u20b9700,000",
+      "interventions": 3
+    }
+  ],
+  "timeline": {
+    "planning_phase": "7 days (immediate)",
+    "execution_start": "2026-01-24",
+    "completion_target": "2026-03-10",
+    "review_cycle": "30 days"
+  },
+  "deployment_readiness": {
+    "status": "\u2705 READY FOR IMMEDIATE DEPLOYMENT",
+    "prerequisites": [
+      "UIDAI Regional Office approval",
+      "State government budget allocation",
+      "District Collector coordination",
+      "Staff deployment logistics"
+    ],
+    "risk_mitigation": [
+      "Pilot in 10 highest-risk districts first",
+      "Weekly progress monitoring",
+      "Budget contingency: +15% for unforeseen costs"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-01-16T01:05:38.053917",
+  "total_districts_analyzed": 975,
+  "anomalies_detected": 49,
+  "contamination_rate": 0.05,
+  "model": "Isolation Forest",
+  "features_used": [
+    "enrol_mean",
+    "enrol_volatility",
+    "child_adult_ratio",
+    "cis_mean",
+    "momentum",
+    "enrol_max"
+  ],
+  "top_10_fraud_risk_districts": [
+    {
+      "district": "Banas Kantha",
+      "state": "Gujarat",
+      "fraud_risk_score": 100.0
+    },
+    {
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "fraud_risk_score": 99.78215343003771
+    },
+    {
+      "district": "Murshidabad",
+      "state": "West Bengal",
+      "fraud_risk_score": 96.41044949709223
+    },
+    {
+      "district": "Pashchim Champaran",
+      "state": "Bihar",
+      "fraud_risk_score": 88.41642515824387
+    },
+    {
+      "district": "Purbi Champaran",
+      "state": "Bihar",
+      "fraud_risk_score": 87.73494777615623
+    },
+    {
+      "district": "Dinajpur Uttar",
+      "state": "West Bengal",
+      "fraud_risk_score": 85.57447857431657
+    },
+    {
+      "district": "Sitamarhi",
+      "state": "Bihar",
+      "fraud_risk_score": 82.70384582563406
+    },
+    {
+      "district": "South 24 Parganas",
+      "state": "West Bengal",
+      "fraud_risk_score": 80.28170811760909
+    },
+    {
+      "district": "Bahraich",
+      "state": "Uttar Pradesh",
+      "fraud_risk_score": 76.65022836744689
+    },
+    {
+      "district": "Kushi Nagar",
+      "state": "Uttar Pradesh",
+      "fraud_risk_score": 74.53227148472129
+    }
+  ]
+}
